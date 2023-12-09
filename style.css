@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "averta cy w10";
+}
+
+body {
+  background-color: #9b59b6;
+}
+
+h1{
+  font-size: 2rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.box {
+  width: 180px;
+  height: 180px;
+  background-color: orangered;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 25px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.box1 {
+  width: 180px;
+  height: 180px;
+  background-color: orangered;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 25px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.box2 {
+  width: 180px;
+  height: 180px;
+  background-color: orangered;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 25px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.btn {
+  padding: 20px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: cadetblue;
+  color: white;
+  font-size: 25px;
+  box-shadow: 2px 4px 6px 4px rgba(180, 180, 180, 0.5);
+  margin-top: 20px;
+}
+.box-container {
+  display: flex;
+  gap: 30px;
+}
